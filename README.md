@@ -111,7 +111,7 @@ Once it's on the main dashboard page, we can try and interpret the data from Sen
 	let valid = [1, 2, 3, 4];
 	let periods = [];
 
-  // Look at each of the rows, and check whether it's an actual period.
+  	// Look at each of the rows, and check whether it's an actual period.
 	for (var i = 0, len = html.length; i < len; i++) {
 		try {
 			if (valid.some((e) => e == html[i]?.children[1]?.children[0]?.content.toString())) {
@@ -137,10 +137,10 @@ Finally, respond to the user with the timetable.
 	for (var i = 0, len = periods.length; i < len; i++) {
 		let period = periods[i].element.children[3].children[1].children[1].children[1].children[1].children[0].content;
 
-    // Only find the first word
+    	// Only find the first word
 		period = period.split(' ')[0];
 
-    // Replace Psychology
+    	// Replace Psychology
 		if (period.match(/Psych/g)) period = 'Psychology';
 		if (i == len - 1) {
 			msg += `and ${period}.`;
@@ -149,7 +149,7 @@ Finally, respond to the user with the timetable.
 		msg += `${period}, `;
 	}
 
-  // Finally, respond to the user with the timetable.
+  	// Finally, respond to the user with the timetable.
 	conv.add(msg)
 });
 ```
