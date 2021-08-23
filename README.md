@@ -154,7 +154,7 @@ Finally, respond to the user with the timetable.
 });
 ```
 
-This isn't the most efficient code, and it's just a starting point. I'd like to cache the results, it only works for my school's timetable, there's so much more potential for different fulfillment features, could be deployed for more than one user, and doesn't really have any error handling, but that's a project for another day. In the wise words of [Tom Scott](https://www.youtube.com/watch?v=lIFE7h3m40U "The Art of the Bodge: How I Made The Emoji Keyboard, by Tom Scott"):
+This isn't the most efficient code, and it's just a starting point. I'd like to cache the results, it only works for my school's timetable, there's so much more potential for different fulfillment features, could be deployed for more than one user, and doesn't really have any error handling, but that's a project for another day. Some of the steps in the original plan I skipped because I was out of time, but overall, it was a good learning experience, and at the end of the day, it works 🎉! In the wise words of [Tom Scott](https://www.youtube.com/watch?v=lIFE7h3m40U "The Art of the Bodge: How I Made The Emoji Keyboard, by Tom Scott"):
 > "I'm not writing elegant solutions here, I patch things together. The important stuff- backups, password security- I make sure I get that right... but stuff I'm making for fun, I bodge." - Tom Scott 2015
 
 ### Demo:
